@@ -74,7 +74,7 @@ contact_note:
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: 323470074 # your google-analytics ID (format: UA-XXXXXXXXX)
+google_analytics: G-JB8D6C8B0D # your google-analytics ID (format: UA-XXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
