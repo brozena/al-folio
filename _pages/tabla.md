@@ -2,8 +2,7 @@
 layout: page
 title: "Tabla"
 permalink: /tabla/
-nav: true 
-nav_order: 4
+nav: false 
 ---
 
 ![Self-portrait, Bed-Stuy, February 2015](/assets/img/selftabla.png)
