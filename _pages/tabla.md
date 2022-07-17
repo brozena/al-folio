@@ -2,7 +2,7 @@
 layout: page
 title: "Tabla"
 permalink: /tabla/
-nav: true
+nav: true 
 nav_order: 4
 ---
 
