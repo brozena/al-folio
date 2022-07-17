@@ -53,6 +53,7 @@ body.sticky-bottom-footer {
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
   background-color: #f5f5f5;
+  color: var(--global-text-color);
 }
 
 @media (min-width: 30em) {
