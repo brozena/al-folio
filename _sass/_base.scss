@@ -3,6 +3,7 @@
  ******************************************************************************/
 
 // Typography
+@import 'https://fonts.googleapis.com/css?family=Bitter';
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
@@ -376,7 +377,6 @@ footer.sticky-bottom {
 }
 
 .pagination {
-  @extend %clearfix;
   .page-item {
     .page-link {
      color: var(--global-text-color);
@@ -392,6 +392,7 @@ footer.sticky-bottom {
       }
     }
   }
+  @extend %clearfix;
   .prev {
     float: left;
   }
