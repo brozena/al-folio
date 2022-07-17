@@ -5,4 +5,4 @@ inline: true
 ---
 
 I successfully passed my [
-program's](https://ist.psu.edu/prospective/graduate/phd-informatics) Qualifying Exam.
+program's](https://ist.psu.edu/prospective/graduate/phd-informatics) first year Qualifying Exam.
