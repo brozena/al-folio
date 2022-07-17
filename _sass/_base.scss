@@ -3,11 +3,15 @@
  ******************************************************************************/
 
 // Typography
-@import 'https://fonts.googleapis.com/css?family=Bitter:400,700';
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700;800&display=swap');
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
   font-family: Bitter, "Apple SD Gothic Neo", "Noto Sans", "Source Han Sans", "Noto Sans CJK JP", "Source Han Sans JP", "Noto Sans CJK KR", "Source Han Sans KR", NanumBarunGothic, AppleGothic, "Malgun Gothic", Dotum, "Courier New", DotumChe, monospace ;
+}
+
+strong {
+  font-weight: 700;
 }
 
 hr {
