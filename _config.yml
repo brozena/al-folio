@@ -90,8 +90,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 #permalink: /:title/
 
 # Pagination
-pagination:
-  enabled: true
+#pagination:
+#  enabled: false
 
 # Comments
 # disqus_shortname: brozena # put your disqus shortname

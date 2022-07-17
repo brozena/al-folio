@@ -376,31 +376,6 @@ footer.sticky-bottom {
   }
 }
 
-.pagination {
-  .page-item {
-    .page-link {
-     color: var(--global-text-color);
-      &:hover {
-        color: var(--global-theme-color);
-      }
-    }
-    &.active .page-link {
-      color: $white-color;
-      background-color: var(--global-theme-color);
-      &:hover {
-        background-color: var(--global-theme-color);
-      }
-    }
-  }
-  @extend %clearfix;
-  .prev {
-    float: left;
-  }
-
-  .next {
-    float: right;
-  }
-}
 // Distill
 
 .distill {

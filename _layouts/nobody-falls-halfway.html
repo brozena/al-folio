@@ -58,12 +58,12 @@ layout: default
 
 <div class="pagination">
     {% if prevPost.url %}
-    <a class="prev" rel="prev" href="{{ prevPost.url }}">
+    <a class="pagination-item" rel="prev" href="{{ prevPost.url }}">
         <span>&lt; {{ prevPost.title }}</span>
     </a>
     {% endif %}
     {% if nextPost.url %}
-    <a class="next" rel="next" href="{{ nextPost.url }}">
+    <a class="pagination-item" rel="next" href="{{ nextPost.url }}">
         <span>{{ nextPost.title }} &gt;</span>
     </a>
     {% endif %}
