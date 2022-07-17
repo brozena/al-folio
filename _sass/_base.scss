@@ -6,6 +6,7 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
+  font-family: Bitter, "Apple SD Gothic Neo", "Noto Sans", "Source Han Sans", "Noto Sans CJK JP", "Source Han Sans JP", "Noto Sans CJK KR", "Source Han Sans KR", NanumBarunGothic, AppleGothic, "Malgun Gothic", Dotum, "Courier New", DotumChe, monospace ;
 }
 
 hr {
@@ -33,7 +34,7 @@ a, table.table a {
 }
 
 figure, img {
-  max-width: 90vw;
+  max-width: 100%;
 }
 
 blockquote {
@@ -248,7 +249,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -271,6 +272,7 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  text-align: center;
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
@@ -376,7 +378,7 @@ footer.sticky-bottom {
 .pagination {
   .page-item {
     .page-link {
-      color: var(--global-text-color);
+     color: var(--global-text-color);
       &:hover {
         color: $black-color;
       }
@@ -390,8 +392,6 @@ footer.sticky-bottom {
     }
   }
 }
-
-
 // Distill
 
 .distill {
@@ -633,4 +633,19 @@ html.transition *:after {
       padding: 8px;
     }
   }
+}
+
+
+
+/**
+ * Clearfix
+ */
+
+%clearfix:before, %clearfix:after {
+  content: ' ';
+  display: table;
+}
+
+%clearfix:after {
+  clear: both;
 }

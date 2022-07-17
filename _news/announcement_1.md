@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-05-21 
 inline: true
 ---
 
-A simple inline announcement.
+I successfully passed my [
+program's](https://ist.psu.edu/prospective/graduate/phd-informatics) Qualifying Exam.
