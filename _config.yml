@@ -7,7 +7,9 @@ first_name: Jeff
 middle_name: 
 last_name: Brozena
 email: jeff@brozena.net
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: >
+  Informatics PhD student at Penn State interested in how
+  collaborative software can support long-term recovery from mental illness. Come for the CV, stay for the stories.
 footer_text:
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
