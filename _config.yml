@@ -166,6 +166,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-pdf-embed
 
 # Sitemap settings
 defaults:
