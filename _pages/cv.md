@@ -6,6 +6,8 @@ nav: true
 nav_order: 3
 ---
 
-{% pdf "/assets/pdf/BrozenaCV.pdf" %}
+{% pdf "/assets/pdf/BrozenaCV.pdf" height=1025px %}
 
-[Professional Resume](/assets/pdf/BrozenaResume.pdf) is also available.
+<br/>
+
+[Professional resume](/assets/pdf/BrozenaResume.pdf) is also available.
