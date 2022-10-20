@@ -10,4 +10,4 @@ nav_order: 3
 
 <br/>
 
-[Professional resume](/assets/pdf/BrozenaResume.pdf) is also available.
+My [professional resume](/assets/pdf/BrozenaResume.pdf) is also available.
