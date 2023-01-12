@@ -9,7 +9,7 @@ profile:
   image_cicular: true # crops the image to make it circular
 
 news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
@@ -20,3 +20,5 @@ Saeed Abdullah</a>. **I'm interested in technical HCI for mental health** and am
 State's [Active Minds](https://www.activeminds.org) chapter back in 2010. If this sort of thing interests you, **you may want to check out my essay [Nobody Falls Halfway](/nobody-falls-halfway/)**.</span>
 
 Previously **I led the [digital transformation](https://en.wikipedia.org/wiki/Digital_transformation)** of what was one of the country's largest and highest-quality closely-held Medicaid groups, [Smiles 4 Keeps Pediatric Dentistry](https://www.smiles4keeps.com). With minimal supervision and years of close mentorship by its owner, I stewarded this unique group from paper operations to centralized (and salable) operations by integrating [OpenDental](https://www.opendental.com) in the midst of a cross-generational transfer of family leadership.
+
+Musically, I play drums and have studied [tabla](/tabla) throughout my life. This all naturally crossed with [photography](/gallery) over time. 
