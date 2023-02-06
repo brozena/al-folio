@@ -21,4 +21,6 @@ State's [Active Minds](https://www.activeminds.org) chapter back in 2010. If thi
 
 Previously **I led the [digital transformation](https://en.wikipedia.org/wiki/Digital_transformation)** of what was one of the country's largest and highest-quality closely-held Medicaid groups, [Smiles 4 Keeps Pediatric Dentistry](https://www.smiles4keeps.com). With minimal supervision and years of close mentorship by its owner, I stewarded this unique group from paper operations to centralized (and salable) operations by integrating [OpenDental](https://www.opendental.com) in the midst of a cross-generational transfer of family leadership.
 
-Musically, I play drums and have studied [tabla](/tabla) throughout my life. This all naturally crossed with [photography](/gallery) over time. 
+I love music, have played drums and studied [tabla](/tabla/) for much of my
+life. This tendency shows up in my [photography](/gallery/), especially of
+musical moments in New York. 
