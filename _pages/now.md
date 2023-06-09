@@ -16,13 +16,11 @@ Gratefully, the next three years will be funded by a National Science
 Foundation [Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
 I'm still cozied up at home under Mt. Nittany in Lemont, PA. Grad school has
-(necessarily?) [rendered me
-monastic](https://en.wikipedia.org/wiki/The_Glass_Bead_Game) for now.
-Submitting to this little endeavor has required me to redefine meanings of
-work, attention, and time. It contains a very different quality of intensity
-than any work I have done before. Accepting this shift of mind has been
-a difficult challenge, but best to keep things pretty simple. In a word, I'm
-really enjoying the monastery for now.
+[rendered me monastic](https://en.wikipedia.org/wiki/The_Glass_Bead_Game) for
+now. Submitting to this little endeavor has required me to redefine meanings of
+work, attention, and time. It contains a different quality of intensity than my
+past work. Accepting this shift of mind has been challenging, but best to keep
+things pretty simple. In a word, I'm enjoying the monastery.
 
 PS. Check out [nownownow.com](https://nownownow.com)
 
