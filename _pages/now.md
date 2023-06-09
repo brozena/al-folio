@@ -5,28 +5,25 @@ permalink: /now/
 nav: true
 nav_order: 5
 ---
-I [took the long way](/nobody-falls-halfway) back to State College,
-Pennsylvania after 10 years away so that I could pursue grad school. I live at
-the base of Mt Nittany in a cozy old apartment. I am very happy to call this
-place home again.
 
-In the fall of 2021 I started work on my [PhD in
+Here comes year three of a [PhD in
 informatics](https://ist.psu.edu/prospective/graduate/phd-informatics) at Penn
 State advised by [Dr Saeed Abdullah](https://saeedabdullah.com) in the
-[Wellbeing and Health Innovation Lab](https://whilab.org/). I'll be researching
-a [computational framework to identify early warning signs of
-relapse](https://whilab.org/projects/bd-prediction.html) in bipolar disorder,
-ultimately aimed at creating collaborative, supportive tools for early
-intervention and management of this illness. I'm currently completing
-coursework related to human-computer interaction, privacy-preservation, and
-data science. 
+[Wellbeing and Health Innovation Lab](https://whilab.org/). Courses are
+wrapping up through winter. PSU's [QuantDev](https://quantdev.ssri.psu.edu/) is
+offering a series of methods courses that I'm really looking forward to.
+Gratefully, the next three years will be funded by a National Science
+Foundation [Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
-I've started an [Adult Children of Alcoholics](https://adultchildren.org)
-meeting online. We have a lively group that meets three nights per week, making
-use of family systems concepts in a 12-step group setting. I'm happy to say
-this has been helpful in a bunch of ways to a bunch of people during the
-pandemic. Feel free to get in touch if this is interesting to you.
+I'm still cozied up at home under Mt. Nittany in Lemont, PA. Grad school has
+(necessarily?) [rendered me
+monastic](https://en.wikipedia.org/wiki/The_Glass_Bead_Game) for now.
+Submitting to this little endeavor has required me to redefine meanings of
+work, attention, and time. It contains a very different quality of intensity
+than any work I have done before. Accepting this shift of mind has been
+a difficult challenge, but best to keep things pretty simple. In a word, I'm
+really enjoying the monastery for now.
 
 PS. Check out [nownownow.com](https://nownownow.com)
 
-*Updated January 2022*
+*Updated June 2023*
