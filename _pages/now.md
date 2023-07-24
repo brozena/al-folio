@@ -18,7 +18,7 @@ Foundation [Graduate Research Fellowship](https://www.nsfgrfp.org/).
 I'm still cozied up at home under Mt. Nittany in Lemont, PA. Grad school has
 [rendered me monastic](https://en.wikipedia.org/wiki/The_Glass_Bead_Game) for
 awhile. Submitting to this little endeavor has required me to redefine meanings
-of work, attention, and time. But in a word, I'm enjoying the monastery.
+of work, attention, and time. Secretly I'm really enjoying it.
 
 PS. Check out [nownownow.com](https://nownownow.com)
 
