@@ -14,14 +14,14 @@ bibliography: var.bib
 
 ---
 
-This is an exploratory N-of-1 analysis of four years of sleep data captured via
-the Oura Ring, a consumer-grade sleep tracking device, along with self-reported
-mood data logged using eMood Tracker for iOS. After assessing the data for
-stationarity and computing the appropriate lag-length selection, a vector
-autoregressive (VAR) model was fit along with Granger causality tests to assess
-causal mechanisms within this multivariate time series. Oura's nightly sleep
-quality score was shown to Granger-cause presence of depressed and anxious
-moods using a VAR(2) model.
+This is an exploratory N-of-1 analysis involving four years of sleep data
+captured via the Oura Ring, a consumer-grade sleep tracking device, and 
+self-reported mood data logged via eMood Tracker for iOS. After assessing the
+data for stationarity and computing the appropriate lag-length selection,
+I fit a vector autoregressive (VAR) model and performed Granger causality tests
+to assess causal mechanisms within this multivariate time series. **Oura's
+nightly sleep quality score was shown to Granger-cause presence of depressed
+and anxious moods using a VAR(2) model.**
 
 ## Introduction
 
@@ -31,12 +31,12 @@ time scales <d-cite
 key="murnaneSelfmonitoring2016"></d-cite><d-cite
 key="morton2018TakingBackReins"></d-cite><d-cite
 key="majid2022ExploringSelftrackingPractices"></d-cite>. Remaining consistently
-aware of key indicators signalling the onset of a chronic condition allow
+aware of key indicators signaling the onset of a chronic condition allow
 individuals a chance at early intervention to reduce the severity of a given
 episode. For example, an individual may modify behavior, engage their health
-practitioners, or adjust medication dosage. However nuanced, bipolar disorder
-is an illness that often degrades an individual's self-awareness and capacity
-for self-monitoring during symptomatic periods.
+practitioners, or adjust medication dosage. Bipolar disorder is an illness that
+often degrades an individual's self-awareness and capacity for self-monitoring
+during symptomatic periods.
 
 In the context of this specific illness, a volume of prior work has
 demonstrated the vital role of sleep in order to promote mood stability and
@@ -49,15 +49,15 @@ shortening) sleep bouts.
 
 Given the importance of sleep in the ongoing management of this illness,
 accurate consumer-grade alternatives to polysomnography (considered the gold
-standard of sleep tracking) have emerged over the last few years. Indeed,
-comparatively inexpensive sleep tracking technologies like the Oura Ring have
-dramatically improved the quality of information that can be used to augment and
-inform these self-monitoring activities. Objective sensor-based tracking
-technology can be complemented with subjective self-report measures in order to
-form a more complete picture of physical and mental health across time. Given
-the aforementioned interplay of sleep and mood, this combination of subjective
-and objective tracking creates the possibility of longitudinal analysis --- and
-potentially deepens one's capacity for self-awareness.
+standard of sleep tracking) have emerged over the last few years. Comparatively
+inexpensive sleep tracking technologies like the Oura Ring have dramatically
+improved the quality of information that can inform these self-monitoring
+activities. Objective sensor-based tracking technology can be complemented with
+subjective self-report measures in order to form a more complete picture of
+physical and mental health across time. Given the aforementioned interplay of
+sleep and mood, this combination of subjective and objective tracking creates
+the possibility of longitudinal analysis --- and potentially deepens one's
+capacity for self-awareness.
 
 Following four years of consistent sleep and mood tracking, I wanted to
 interpret the data I had collected to quantify what I had intuited: that
@@ -67,15 +67,10 @@ existing literature <d-cite key="boseVector2017"></d-cite><d-cite
 key="moshePredicting2021"></d-cite><d-cite
 key="jafarlouObjective2023"></d-cite>. 
 
-I will first describe the vector autoregression (VAR) method and subsequent
-tests, namely the Granger causality test and an impulse response analysis, that
-were performed to achieve these goals.
-
-First, I will describe the methods used to achieve these goals, providing an
-overview of vector autoregression, Granger causality, and impulse response
-functions. Next, I will detail the findings of these methods on the dataset.
-This work concludes with a discussion of the methods and their potential
-applications in future work.
+I describe the methods used to achieve these goals, providing an overview of
+vector autoregression, Granger causality, and impulse response functions.
+I will detail the findings of these methods on the dataset, then conclude with
+a discussion of the methods and their potential applications in future work.
 
 ## Methods
 
@@ -86,21 +81,20 @@ A multivariate time series analysis was performed using a vector autoregressive
 obtained using a combination of Akaike Information Criterion (AIC), Bayesian
 Information Criterion (BIC), Hannan-Quinn Information Criterion (HQIC), and
 final prediction error (FPE). After fitting a VAR(2) model on the multiple time
-series data (outlined below), a Granger causality test was performed in order to
-assess the predictive relationships between variables. Finally, an impulse
+series data (described below), a Granger causality test was performed in order
+to assess the predictive relationships between variables. Finally, an impulse
 response analysis was plotted to further explore the temporal relationships
-between variables, specifically between sleep and self-reported mood. I will
-outline these analysis steps in greater detail in the sections that follow.
+between variables, specifically between sleep and self-reported mood. I outline
+these analysis steps in greater detail in the sections that follow.
 
 ### Vector Autoregression
 
 A VAR($p$) model for a multivariate time series is a regression model for
-outcomes at time $t$ and time lagged predictors, with $p$
-indicating the lag. Given $p$ = 1, the model would be concerned with one
-observation prior to $t$. 
-a $T \times K$ multivariate time series (where $T$ is the number of
-observations and $K$ is the number of variables) can be modeled using
-a $p$-lag VAR model <d-cite key="lutkepohlNew2005"></d-cite>, notated as
+outcomes at time $t$ and time lagged predictors, with $p$ indicating the lag.
+Given $p$ = 1, the model would be concerned with one observation prior to $t$.
+A $T \times K$ multivariate time series (where $T$ is the number of
+observations and $K$ is the number of variables) can be modeled using a $p$-lag
+VAR model <d-cite key="lutkepohlNew2005"></d-cite>, notated as
 
 $$Y_t = \nu + A_1 Y_{t-1} + \ldots + A_p Y_{t-p} + u_t$$ 
 
@@ -116,23 +110,23 @@ method for the analysis of causality in this setting.
 
 ### Granger Causality Testing
 
-I incorporated Granger causality tests in order to better assess the predictive
-capacity of the Oura sleep score on self-reported mood states. Granger causality
-defines one type of relationship between time series <d-cite
+I incorporated Granger causality tests to better assess the predictive capacity
+of the Oura sleep score on self-reported mood states. Granger causality defines
+one type of relationship between time series <d-cite
 key="grangerInvestigating1969"></d-cite> and states that a variable *Granger
 causes* another variable if "the prediction of one time series is improved by
 incorporating the knowledge of a second time series" <d-cite
 key="boseVector2017"></d-cite>.
 
-Here, two autoregressive models are fit to the first time series, once with and once
+Two autoregressive models are fit to the first time series, once with and once
 without the inclusion of the second time series. The improvement of the
 prediction is measured as the ratio of variance of the error terms. The null
 hypothesis states that the first variable *does not* Granger cause the
 second variable and is rejected if the coefficients for the lagged values of the
 first variable are significant.
 
-For the purposes of this study, Granger causation tests were applied using sleep
-scores as a single predictor and each mood state as outcome variables.
+In this study, Granger causation tests were applied using sleep scores as
+a single predictor and each mood state as outcome variables.
 
 ### Impulse Response Function Visualization
 
@@ -172,10 +166,10 @@ state in eMood Tracker, a mobile application for iOS. eMood Tracker is
 "recommended by psychologists, therapists, and social workers" and is intended
 to "track symptom data relating to Bipolar I and II disorders" <d-cite
 key="eMoods2023"></d-cite>. The version used through this period contains
-preset mood categories (depressed, irritable, anxious, and elevated) and allow
-users to log the presence and intensity on a scale of 0 to 3, where 0 is "not
-present" and 3 is "severe". The resulting dataset contains the most severe mood
-state per day. The contents of this dataset are outlined below.
+preset mood categories --- depressed, irritable, anxious, and elevated. Users
+log the presence and intensity of each mood on a scale of 0 to 3, where 0 is
+"not present" and 3 is "severe". The resulting dataset contains the most severe
+mood state per day as described below.
 
 | **EMA Categories** | **Count** |
 |-----------------------|----------------|
@@ -201,39 +195,38 @@ can be applied to achieve stationarity. The Dickey-Fuller test is one mechanism
 to determine whether a time series is stationary.
 
 Two Dickey-Fuller tests were performed on each time series, first via
-`statsmodels` and then, additionally, using `pymdarima`'s
-`should_diff()` function to assess the need for differencing. The
-`statsmodels` approach, an Augmented Dickey-Fuller test (ADF), yielded a
-significant $p$-value of .001 indicating support for the null hypothesis that
-the time series is not stationary. However, the ADF performed via the
-`pymdarima` approach using an alpha value of 0.05 yielded
-a non-significant $p$-value of 0.01 indicating that no differencing was
-required in order to produce a stationary time series. For the purposes of this
-study, I followed the results of the `pymdarima` library and assumed
-stationarity.
+`statsmodels` and then, additionally, using `pymdarima`'s `should_diff()`
+function to assess the need for differencing. The `statsmodels` approach, an
+Augmented Dickey-Fuller test (ADF), yielded a significant $p$-value of .001
+indicating support for the null hypothesis that the time series is not
+stationary. However, the ADF performed via the `pymdarima` approach using an
+alpha value of 0.05 yielded a non-significant $p$-value of 0.01 indicating that
+no differencing was required in order to produce a stationary time series. For
+the purposes of this study, I followed the results of the `pymdarima` library
+and assumed stationarity.
 
-An exploratory time series decomposition visualization was created to better
-understand the presence of trend in the sleep score dataset. 
+I visualized a time series decomposition to better understand the presence of
+trend in the sleep score dataset.
 
 ![](/assets/img/decomposition.png "Decomposition of sleep time series")
 
-Additionally, a partial autocorrelation function was plotted using
-`statsmodels`. Notably, partial autocorrelation appears to drop to zero for lag
-values greater than 2.
+Additionally, I plotted a partial autocorrelation function using `statsmodels`.
+Notably, partial autocorrelation appears to drop to zero for lag values greater
+than 2.
 
 ![](/assets/img/pacf.png "Partial autocorrelation of sleep time series")
 
 ### Lag Order Selection
 
 The number of lags amount to the number of preceding days included as predictor
-values in the model. The `statsmodels` function `select_order()` was
-used to assess an optimal lag value with possibilities between 0 and 15. The
-optimal lag value was determined using four information criteria --- Akaike
-Information Criteria (AIC), Bayes Information Criterion (BIC), Final Prediction
-Error (FPE), and Hannan-Quinn (HQ) criterion. This selection process yielded
-a tie with lag-1 and lag-2 each labeled as the minimum on these criteria.
-Rather than taking further quantitative approaches, lag-2 was selected based on
-prior knowledge of sleep quality and the onset of mood states.
+values in the model. The `statsmodels` function `select_order()` was used to
+assess an optimal lag value with possibilities between 0 and 15. The optimal
+lag value was determined using four information criteria --- Akaike Information
+Criteria (AIC), Bayes Information Criterion (BIC), Final Prediction Error
+(FPE), and Hannan-Quinn (HQ) criterion. This selection process yielded a tie
+with lag-1 and lag-2 each labeled as the minimum on these criteria. In this
+case, I selected lag-2 based on prior knowledge of sleep quality and the onset
+of mood states.
 
 |            | **AIC** | **BIC** | **FPE** | **HQIC** |
 |-------------|------------|--------------|--------------|---------------|
@@ -257,12 +250,12 @@ prior knowledge of sleep quality and the onset of mood states.
 ### Vector Autoregression Model
 
 All time series under analysis were found to be stationary (ADF test $p$
-< .05). The results of the VAR(2) model predicting mood states using
-sleep score are shown below. Sleep score was found to be a significant positive
-predictor of depression, also confirmed via Granger causation tests. Sleep
+< .05). The results of the VAR(2) model predicting mood states using sleep
+score are shown below. **Sleep score was found to be a significant positive
+predictor of depression, also confirmed via Granger causation tests**. Sleep
 score did not positively or negatively predict other mood states in this model.
 
-|                      | **coefficient** | **std. error** | **t-stat** | **prob** |
+|                      | **Coefficient** | **Std. error** | **Test statistic** | **p-value** |
 |-----------------------|--------------------|---------------------|-----------------|---------------|
 | **L1.score**     | 0.633262           | 0.027574            | 22.966          | 0.000         |
 | **L1.anxious**   | 0.153275           | 0.446110            | 0.344           | 0.731         |
@@ -277,8 +270,8 @@ score did not positively or negatively predict other mood states in this model.
 
 ### Granger Causality
 
-The results of the Granger causation tests are shown below. Sleep score was
-shown to Granger-cause both depressed and anxious mood.
+The results of the Granger causation tests are shown below. **Sleep score was
+shown to Granger-cause both depressed and anxious mood.**
 
 | **Causal Variable** | **Variable**  | **Test statistic** | **Critical value** | **p-value** | **df** |
 |------------------------|--------------------|-------------------------|-------------------------|------------------|-------------|
@@ -291,25 +284,23 @@ shown to Granger-cause both depressed and anxious mood.
 
 As shown in the figure below, the impact of sleep score on the four
 self-reported mood states varies over a 10-day period. Standard errors are
-plotted at the 95% significance level. The effect of an increase to sleep
-score on depressed and anxious moods appear to be most felt only after several
-days of its impact, peaking at roughly 3 days and then gradually decaying.
+plotted at the 95% significance level. The effect of an impact on sleep score
+on depressed and anxious moods appear to be most felt only after several days
+of its impact, peaking at roughly 3 days and then gradually decaying.
 
 ![](/assets/img/IRF.png "Plot of Impulse Response Function, Lag 0 to 10")
 
 ## Discussion
 
-This exploratory study affirms the role that self-tracking technologies can play
-in the ongoing management of affective disorders. This type of N-of-1 analysis
-would be impossible without inexpensive wearable sensors, and the quality of
-this dataset is directly related to how non-invasive this particular wearable
-is.
+This exploratory study affirms the role that self-tracking technologies can
+play in the ongoing management of affective disorders. This type of N-of-1
+analysis would be impossible without inexpensive wearable sensors, and the
+quality of this dataset is directly related to how non-invasive this particular
+wearable is.
 
-This work is not without limitation. My reliance on an algorithmic ADF test to
+This work is limited in several ways. My reliance on an algorithmic ADF test to
 assess stationarity (rather than directly assessing the data myself) could
-leave room for error. In the context of this work, an incorrect assessment of
-stationarity risks the accuracy of the remainder of the analysis. However, this
-project served as great practice for future research where the stakes are
-higher. Additionally, this work only assesses the influence of the Oura sleep
-score on mood. In reality, this is likely closer to a bidirectional influence
-and this should be reflected properly in the analysis.
+leave room for error. Additionally, this work only assesses the influence of
+the Oura sleep score on mood. In reality, this is likely closer to
+a bidirectional influence and this should be reflected properly in the
+analysis.
