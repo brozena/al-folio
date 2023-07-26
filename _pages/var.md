@@ -14,10 +14,10 @@ bibliography: var.bib
 
 ---
 
-This is an exploratory N-of-1 analysis involving four years of sleep data
-captured via the Oura Ring, a consumer-grade sleep tracking device, and 
-self-reported mood data logged via eMood Tracker for iOS. After assessing the
-data for stationarity and computing the appropriate lag-length selection,
+This is an exploratory N-of-1 analysis involving four years of my own sleep
+data captured via the Oura Ring, a consumer-grade sleep tracking device, and
+my self-reported mood data logged via eMood Tracker for iOS. After assessing
+the data for stationarity and computing the appropriate lag-length selection,
 I fit a vector autoregressive (VAR) model and performed Granger causality tests
 to assess causal mechanisms within this multivariate time series. **Oura's
 nightly sleep quality score was shown to Granger-cause presence of depressed
