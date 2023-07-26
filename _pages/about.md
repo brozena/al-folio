@@ -13,8 +13,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a second year PhD student at [Penn State University](https://ist.psu.edu/prospective/graduate/phd-informatics) in the [Wellbeing and Health Innovation Lab](https://whilab.org) advised by <a href="https://saeedabdullah.com">Dr
-Saeed Abdullah</a>. **I'm interested in technical HCI for mental health** and am currently working on understanding how technologies can aid in the long-term management of bipolar disorder.
+I am a PhD student at [Penn State
+University](https://ist.psu.edu/prospective/graduate/phd-informatics) in the
+[Wellbeing and Health Innovation Lab](https://whilab.org) advised by <a
+href="https://saeedabdullah.com">Dr Saeed Abdullah</a>. **I'm interested in
+technical HCI for mental health** and am currently working on understanding how
+technologies can aid in the long-term management of bipolar disorder.
 
 <span data-nosnippet>I am a long-time advocate for mental health issues and am
 open about my lived experience with bipolar disorder. I founded Penn State's
@@ -31,6 +35,5 @@ I stewarded this unique group from paper operations to centralized (and
 salable) operations by integrating [OpenDental](https://www.opendental.com) in
 the midst of a cross-generational transfer of family leadership.
 
-I have played drums and studied [tabla](/tabla/) throughout my life. I have
-some of my [photography](/gallery/) online, a lot of it documenting what were
-beautiful musical moments in New York.
+I have played drums and studied [tabla](/tabla/) throughout my life. My
+[photography](/gallery/) documents years of musical moments, thank goodness.
