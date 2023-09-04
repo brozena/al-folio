@@ -12,7 +12,7 @@ State advised by [Dr Saeed Abdullah](https://saeedabdullah.com) in the
 [Wellbeing and Health Innovation Lab](https://whilab.org/). Courses are
 wrapping up through winter. PSU's [QuantDev](https://quantdev.ssri.psu.edu/) is
 offering a series of methods courses that I'm really looking forward to.
-Gratefully, the next three years will be funded by a National Science
+Gratefully, my time at Penn State will be funded by a National Science
 Foundation [Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
 I'm still cozied up at home under Mt. Nittany in Lemont, PA. Grad school has
