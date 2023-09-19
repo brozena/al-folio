@@ -10,7 +10,6 @@ nav_order: 2
 <div class="publications">
 
 {%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
   {% bibliography --template bib --group_by type,year --group_order ascending,descending %}
 {% endfor %}
 
