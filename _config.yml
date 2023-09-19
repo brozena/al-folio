@@ -205,10 +205,10 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: Brozena 
+  last_name: Brozena
   first_name: [Jeff]
 
-  style: apa 
+  style: apa
   locale: en
 
   source: /_bibliography/
@@ -227,6 +227,10 @@ scholar:
   details_link: Details
 
   query: "@*"
+  sort_by: year, month
+  order: descending, descending
+  type_order: [unpublished, article, inbook, conference, incollections, inproceedings, proceedings, book, misc, techreport]
+  type_names: {unpublished: Pre-Prints / In Preparation}
 
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview] # Filter out certain bibtex entry keywords used internally from the bib output
 

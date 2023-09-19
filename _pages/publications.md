@@ -11,7 +11,7 @@ nav_order: 2
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  {% bibliography --template bib --group_by type,year --group_order ascending,descending %}
 {% endfor %}
 
 </div>
