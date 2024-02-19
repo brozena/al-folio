@@ -15,7 +15,7 @@ _In the words of Robert Lowell, "Yet why not say what happened?"_
 
 ___
 
-Over the last year of my life, I aimed to confirm old answers (_known-good medication treatments_) to hard questions (_living well with cross-generational bipolarity_) as consciously and as completely as I could. Having learned of the possibility of treating some common mental illness with [micronutrients](http://www.ibpf.org/advanced-nutrient-therapies-bipolar-disorders-dr-william-walsh), I attempted a full exploration into what it may take to lead a good life with my diagnosis of bipolar disorder, type 2.
+Over the last year of my life, I aimed to confirm old answers (_known-good medication treatments_) to hard questions (_living well with cross-generational bipolarity_) as consciously and as completely as I could. Having learned of the possibility of treating some common mental illness with [micronutrients](https://ibpf.org/articles/advanced-nutrient-therapies-for-bipolar-disorders-with-dr-william-walsh/), I attempted a full exploration into what it may take to lead a good life with my diagnosis of bipolar disorder, type 2.
 
 You may be familiar with the illness. Several celebrities have spoken out about their experiences with it, many with the eloquence and wit which tend to characterize those affected by it. 
 
