@@ -22,3 +22,5 @@ group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
 end
+
+gem "font-awesome-sass", "~> 6.5"

@@ -56,6 +56,7 @@ gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: brozena   # your LinkedIn user name
 scholar_userid:  EC9BDRAAAAAJ # your Google Scholar ID
+bluesky_url: https://bsky.app/profile/jeff.brozena.net
 orcid_id: 0000-0001-7621-1566 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
