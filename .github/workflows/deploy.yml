@@ -9,7 +9,6 @@ on:
     branches:
       - master
       - main
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
