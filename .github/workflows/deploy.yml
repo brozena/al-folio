@@ -22,7 +22,7 @@ jobs:
         ruby-version: '3.3'
         bundler-cache: true
     - name: Setup Dependencies
-    run: |
+  run: |
       gem update --system
       gem install bundler
       bundle update --bundler
