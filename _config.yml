@@ -9,7 +9,7 @@ last_name: Brozena
 email: jeff@brozena.net
 description: 
 footer_text:
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: 
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
